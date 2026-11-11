@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAL15 Burger and Shop | Hambúrguer na lenha frutífera em BH</title>
+<meta name="description" content="Hambúrgueres assados na lenha frutífera, queijo da canastra meia cura e ótimos coquetéis no Prado, Belo Horizonte. Terça a domingo, das 17h às 23h.">
+<meta name="theme-color" content="#0f2619">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,800;0,900;1,500;1,700&family=Rye&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "SAL15 Burger and Shop",
+  "servesCuisine": "Hambúrguer",
+  "priceRange": "R$ 60–100",
+  "address": {"@type":"PostalAddress","streetAddress":"R. Pedra Bonita, 346 - Prado","addressLocality":"Belo Horizonte","addressRegion":"MG","postalCode":"30411-203","addressCountry":"BR"},
+  "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"17:00","closes":"23:00"}],
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"4064"},
+  "sameAs":["https://www.instagram.com/sal15.burgerandshop/"]
+}
+</script>
+<style>
+:root{
+  --deep:#0f2619;
+  --green:#17382a;
+  --green-2:#21503c;
+  --gold:#e0b45a;
+  --gold-d:#b88a2e;
+  --mustard:#d9aa4d;
+  --cream:#f1ebdb;
+  --paper:#e6dcc0;
+  --wine:#6d1626;
+  --wine-d:#4a0e1a;
+  --ink:#1c1a16;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .9 0 0 0 0 .7 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --diamonds:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44'%3E%3Cpath d='M22 6l16 16-16 16L6 22z' fill='none' stroke='%23e0b45a' stroke-opacity='.13' stroke-width='1.2'/%3E%3Ccircle cx='22' cy='22' r='1.6' fill='%23e0b45a' fill-opacity='.2'/%3E%3C/svg%3E");
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:'DM Sans',system-ui,sans-serif;background:var(--deep);color:var(--cream);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:min(1160px,100% - 32px);margin-inline:auto}
+h1,h2,h3{line-height:1.05}
+.rye{font-family:'Rye',serif;font-weight:400;letter-spacing:.02em}
+.serif{font-family:'Playfair Display',serif}
+.eyebrow{display:inline-block;font-weight:700;font-size:.78rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+section{padding:84px 0;position:relative}
+.sec-title{font-family:'Rye',serif;font-weight:400;font-size:clamp(2rem,6.4vw,3.6rem);margin:10px 0 14px;color:var(--gold);text-shadow:0 3px 0 rgba(0,0,0,.35)}
+.sec-lead{max-width:60ch;color:#d8d1ba;font-size:1.06rem}
+.center{text-align:center}.center .sec-lead{margin-inline:auto}
+
+/* ornament divider */
+.orn{display:flex;align-items:center;gap:14px;color:var(--gold);margin:18px 0;font-size:1.1rem}
+.orn::before,.orn::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,transparent,var(--gold) 60%,transparent);opacity:.8}
+.center .orn{max-width:420px;margin-inline:auto}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 28px;font-weight:700;text-decoration:none;font-size:1rem;letter-spacing:.04em;text-transform:uppercase;border:2px solid var(--gold);border-radius:6px;min-height:50px;cursor:pointer;font-family:inherit;transition:transform .15s,background .2s,color .2s,box-shadow .2s;box-shadow:4px 4px 0 rgba(0,0,0,.45)}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 rgba(0,0,0,.45)}
+.btn-gold{background:var(--gold);color:var(--deep)}
+.btn-gold:hover{background:#f0c56d}
+.btn-line{background:transparent;color:var(--gold)}
+.btn-line:hover{background:var(--gold);color:var(--deep)}
+.btn-wine{background:var(--wine);border-color:var(--gold);color:var(--cream)}
+.btn-deep{background:var(--deep);border-color:var(--deep);color:var(--gold)}
+
+/* header */
+header{position:fixed;inset:0 0 auto 0;z-index:60;background:rgba(15,38,25,.97);border-bottom:3px double var(--gold-d)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--gold)}
+.logo-fallback{display:flex;align-items:center;gap:10px}
+.logo-mark{width:44px;height:44px;border-radius:50%;border:2px solid var(--gold);outline:2px solid var(--gold);outline-offset:3px;display:grid;place-items:center;font-family:'Rye';font-size:.95rem;margin:3px}
+.logo-text{font-family:'Rye';font-size:1.25rem;line-height:1}
+.logo-text small{display:block;font-family:'DM Sans';font-size:.58rem;letter-spacing:.26em;font-weight:700;color:var(--cream);margin-top:4px}
+.logo-img{display:none;height:48px;width:auto;filter:brightness(0) invert(74%) sepia(48%) saturate(560%) hue-rotate(2deg) brightness(96%)}
+.logo.has-img .logo-img{display:block}
+.logo.has-img .logo-fallback{display:none}
+nav ul{display:none;list-style:none;gap:26px}
+nav a{text-decoration:none;color:var(--cream);font-weight:700;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase}
+nav a:hover{color:var(--gold)}
+.nav-cta{display:none;padding:9px 18px;min-height:42px;font-size:.85rem}
+.burger-btn{background:none;border:2px solid var(--gold);border-radius:6px;width:46px;height:46px;display:grid;place-content:center;gap:5px;cursor:pointer}
+.burger-btn span{display:block;width:22px;height:2.5px;background:var(--gold);transition:.25s}
+.burger-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+.burger-btn[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+.mobile-menu{display:none;background:var(--deep);padding:6px 16px 22px;border-top:1px solid rgba(224,180,90,.3)}
+.mobile-menu.open{display:block}
+.mobile-menu a{display:block;padding:15px 4px;color:var(--cream);text-decoration:none;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.9rem;border-bottom:1px dashed rgba(224,180,90,.3)}
+.mobile-menu .btn{margin-top:18px;width:100%}
+@media(min-width:960px){nav ul{display:flex}.nav-cta{display:inline-flex}.burger-btn,.mobile-menu{display:none!important}}
+
+/* hero */
+.hero{background:radial-gradient(ellipse at 75% 35%,#235a43 0,var(--green) 55%,var(--deep) 100%);padding:140px 0 90px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:var(--diamonds),var(--grain);opacity:1;pointer-events:none}
+.hero-grid{display:grid;gap:30px;align-items:center;position:relative;z-index:1}
+.seal-badge{display:inline-flex;align-items:center;gap:10px;border:2px solid var(--gold);padding:8px 16px;font-weight:700;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:22px;background:rgba(0,0,0,.25)}
+.hero h1{font-family:'Rye',serif;font-weight:400;font-size:clamp(2.6rem,10vw,5.2rem);color:var(--cream);text-shadow:0 4px 0 rgba(0,0,0,.45);margin-bottom:18px}
+.hero h1 span{color:var(--gold);display:block}
+.hero p.lead{font-size:1.14rem;max-width:50ch;color:#e3dcc6;margin-bottom:30px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:14px}
+.hero-stats{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:0;margin-top:38px;border:2px solid var(--gold-d);width:max-content;max-width:100%}
+.hero-stats div{padding:12px 18px;text-align:center;border-right:2px solid var(--gold-d);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:#cfc8b2}
+.hero-stats div:last-child{border:0}
+.hero-stats b{display:block;font-family:'Rye';font-weight:400;font-size:1.5rem;color:var(--gold);letter-spacing:0}
+.hero-art{position:relative;justify-self:center;width:min(480px,94%);aspect-ratio:1}
+.rays{position:absolute;inset:-12%;background:repeating-conic-gradient(from 0deg,rgba(224,180,90,.2) 0 5deg,transparent 5deg 10deg);-webkit-mask:radial-gradient(circle,#000 28%,transparent 68%);mask:radial-gradient(circle,#000 28%,transparent 68%);animation:spin 90s linear infinite}
+.hero-art svg.burger{position:relative;z-index:1;width:100%;height:100%}
+.rotseal{position:absolute;z-index:2;right:-2%;top:-2%;width:30%;filter:drop-shadow(4px 5px 0 rgba(0,0,0,.4))}
+.rotseal .ring{transform-origin:100px 100px;animation:spin 28s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(min-width:960px){.hero-grid{grid-template-columns:1.05fr .95fr;gap:40px}.hero{padding:170px 0 110px}}
+
+/* marquee */
+.marquee{background:var(--gold);color:var(--deep);border-block:4px double var(--deep);overflow:hidden;white-space:nowrap;padding:14px 0;transform:rotate(-1deg);margin:-14px -10px 0;position:relative;z-index:5;box-shadow:0 8px 0 rgba(0,0,0,.3)}
+.marquee .track{display:inline-flex;gap:34px;animation:slide 32s linear infinite;font-family:'Rye';font-size:1.15rem;letter-spacing:.06em}
+.marquee .track span.d{color:var(--wine)}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* casa */
+.casa{background:var(--cream);color:var(--ink);padding-top:110px}
+.casa::before{content:"";position:absolute;inset:0;background-image:var(--grain);opacity:.7;pointer-events:none;mix-blend-mode:multiply}
+.casa .sec-title{color:var(--green);text-shadow:2px 2px 0 rgba(184,138,46,.35)}
+.casa .eyebrow{color:var(--wine)}
+.casa .orn{color:var(--gold-d)}
+.casa-grid{display:grid;gap:40px;position:relative}
+.casa p{margin-top:14px;color:#3d392e;font-size:1.04rem}
+.casa p strong{color:var(--wine)}
+.frame{border:3px solid var(--green);outline:2px solid var(--gold-d);outline-offset:6px;padding:26px;background:var(--paper);position:relative}
+.frame::before,.frame::after{content:"✦";position:absolute;color:var(--gold-d);font-size:1.3rem;background:var(--paper);padding:0 6px;left:50%;transform:translateX(-50%)}
+.frame::before{top:-17px}.frame::after{bottom:-17px}
+.facts{display:grid;gap:18px}
+.fact{display:flex;gap:16px;align-items:flex-start;padding-bottom:18px;border-bottom:2px dashed rgba(23,56,42,.35)}
+.fact:last-child{border:0;padding:0}
+.fact .n{flex:none;width:44px;height:44px;border-radius:50%;background:var(--green);color:var(--gold);display:grid;place-items:center;font-family:'Rye';font-size:1.05rem;border:2px solid var(--gold-d);outline:2px solid var(--green);outline-offset:2px}
+.fact h3{font-family:'Playfair Display';font-weight:800;font-size:1.2rem;color:var(--green);margin-bottom:3px}
+.fact p{margin:0;font-size:.95rem}
+@media(min-width:960px){.casa-grid{grid-template-columns:1fr 1fr;gap:70px;align-items:center}}
+
+/* menu */
+.menu{background:var(--green)}
+.menu::before{content:"";position:absolute;inset:0;background-image:var(--diamonds),var(--grain);pointer-events:none}
+.menu .wrap{position:relative}
+.tabs{display:flex;gap:0;margin:30px 0 36px;border:2px solid var(--gold);width:max-content;max-width:100%}
+.tab{background:transparent;border:0;color:var(--gold);padding:13px 30px;font-family:'Rye';font-size:1.05rem;cursor:pointer;min-height:50px;letter-spacing:.04em}
+.tab+.tab{border-left:2px solid var(--gold)}
+.tab[aria-selected="true"]{background:var(--gold);color:var(--deep)}
+.panel[hidden]{display:none}
+.grid{display:grid;gap:22px}
+@media(min-width:760px){.grid{grid-template-columns:repeat(2,1fr)}}
+.card{background:var(--cream);color:var(--ink);padding:26px 26px 24px;border:3px solid var(--deep);outline:2px solid var(--gold);outline-offset:-10px;position:relative;box-shadow:7px 7px 0 rgba(0,0,0,.4)}
+.card .no{position:absolute;top:-14px;left:22px;background:var(--wine);color:var(--gold);font-family:'Rye';font-size:.95rem;padding:3px 14px;border:2px solid var(--gold);letter-spacing:.05em}
+.card h3{font-family:'Rye';font-weight:400;font-size:1.45rem;color:var(--green);margin:14px 0 8px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:0 6px}
+.card p{font-size:.96rem;color:#3d392e;padding:0 6px}
+.tag{font-family:'DM Sans';font-size:.64rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:4px 10px;background:var(--wine);color:var(--cream)}
+.tag.veg{background:#2f6e43}
+.tag.size{background:var(--green);color:var(--gold)}
+.card.featured{grid-column:1/-1;background:var(--mustard);padding:34px 28px 30px;overflow:hidden}
+.card.featured::before{content:"";position:absolute;inset:0;background:repeating-conic-gradient(from 0deg at 85% 50%,rgba(255,255,255,.2) 0 4deg,transparent 4deg 8deg);pointer-events:none}
+.card.featured>*{position:relative}
+.card.featured h3{font-size:clamp(2rem,6vw,3rem);color:var(--wine-d)}
+.card.featured p{font-size:1.04rem;color:#2d2410;max-width:54ch}
+.card.featured .award{display:inline-block;background:var(--deep);color:var(--gold);padding:6px 14px;font-weight:700;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;margin:6px 6px 12px;border:2px solid var(--gold)}
+.note{margin-top:30px;font-size:.92rem;color:#cfc8b2;text-align:center}
+.menu-cta{margin-top:30px;display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+
+/* diferenciais */
+.dif{background:var(--deep)}
+.dif::before{content:"";position:absolute;inset:0;background-image:var(--diamonds);pointer-events:none}
+.dif .wrap{position:relative}
+.dif-grid{display:grid;gap:22px;margin-top:44px}
+@media(min-width:620px){.dif-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.dif-grid{grid-template-columns:repeat(3,1fr)}}
+.dcard{border:3px double var(--gold);padding:34px 26px 28px;text-align:center;background:linear-gradient(180deg,rgba(33,80,60,.55),rgba(23,56,42,.35));position:relative}
+.dcard::before{content:"";position:absolute;inset:7px;border:1px dashed rgba(224,180,90,.4);pointer-events:none}
+.emblem{width:96px;height:96px;margin:-62px auto 16px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f2cf84,var(--gold) 55%,var(--gold-d));border:4px solid var(--deep);outline:3px solid var(--gold);display:grid;place-items:center;box-shadow:5px 6px 0 rgba(0,0,0,.45)}
+.emblem svg{width:60px;height:60px}
+.dcard h3{font-family:'Rye';font-weight:400;font-size:1.35rem;color:var(--gold);margin-bottom:8px}
+.dcard p{font-size:.96rem;color:#d8d1ba}
+.dif-grid{padding-top:40px}
+
+/* reconhecimento */
+.proof{background:var(--wine);overflow:hidden}
+.proof::before{content:"";position:absolute;inset:0;background-image:var(--diamonds),var(--grain);pointer-events:none}
+.proof .wrap{position:relative}
+.proof .sec-title{color:var(--gold)}
+.proof-grid{display:grid;gap:22px;margin-top:40px}
+@media(min-width:820px){.proof-grid{grid-template-columns:repeat(3,1fr)}}
+.pbox{background:var(--wine-d);border:3px double var(--gold);padding:34px 22px;text-align:center;box-shadow:7px 7px 0 rgba(0,0,0,.35)}
+.pbox .big{font-family:'Rye';font-size:4rem;color:var(--gold);line-height:1;text-shadow:3px 3px 0 rgba(0,0,0,.4)}
+.pbox .stars{color:var(--gold);letter-spacing:6px;margin:10px 0 8px;font-size:1.1rem}
+.pbox p{color:#eadfc9;font-size:.98rem}
+.proof .center-cta{margin-top:36px;text-align:center}
+
+/* horários */
+.hours{background:var(--mustard);color:var(--ink);overflow:hidden}
+.hours::before{content:"";position:absolute;inset:0;background-image:var(--grain);mix-blend-mode:multiply;pointer-events:none}
+.hours .sec-title{color:var(--deep);text-shadow:2px 2px 0 rgba(255,255,255,.3)}
+.hours .eyebrow{color:var(--wine-d)}
+.hours-grid{display:grid;gap:36px;align-items:center;position:relative}
+@media(min-width:900px){.hours-grid{grid-template-columns:.8fr 1.2fr;gap:60px}}
+.clock{width:min(300px,76%);margin-inline:auto;filter:drop-shadow(6px 7px 0 rgba(0,0,0,.3))}
+.hours .big-hours{font-family:'Rye';font-size:clamp(2rem,6vw,3.4rem);color:var(--deep);line-height:1.1}
+.hours .big-hours small{display:block;font-family:'DM Sans';font-weight:700;font-size:.9rem;letter-spacing:.2em;color:var(--wine-d);margin-bottom:6px}
+.hours p{margin-top:14px;font-size:1.05rem;color:#2d2410;max-width:48ch}
+.addr{margin-top:22px;display:inline-block;background:var(--deep);color:var(--gold);padding:16px 22px;border:3px double var(--gold)}
+.addr b{display:block;font-family:'Rye';font-weight:400;font-size:1.25rem}
+.hours .hbtns{margin-top:24px;display:flex;flex-wrap:wrap;gap:12px}
+
+/* reservas e delivery */
+.how{background:var(--green)}
+.how::before{content:"";position:absolute;inset:0;background-image:var(--diamonds),var(--grain);pointer-events:none}
+.how .wrap{position:relative}
+.how-grid{display:grid;gap:26px;margin-top:40px}
+@media(min-width:900px){.how-grid{grid-template-columns:repeat(2,1fr)}}
+.box{padding:44px 30px 32px;border:3px double var(--gold);position:relative;box-shadow:8px 8px 0 rgba(0,0,0,.4)}
+.box::before{content:"";position:absolute;inset:8px;border:1px dashed rgba(224,180,90,.55);pointer-events:none}
+.box.res{background:var(--wine)}
+.box.del{background:linear-gradient(170deg,#e3b95c,#c9983c);color:var(--ink)}
+.box .ico{position:absolute;top:-34px;left:28px;width:68px;height:68px;border-radius:50%;background:var(--deep);border:3px solid var(--gold);display:grid;place-items:center;box-shadow:4px 4px 0 rgba(0,0,0,.4)}
+.box .ico svg{width:38px;height:38px}
+.box h3{font-family:'Rye';font-weight:400;font-size:1.8rem;margin-bottom:12px;color:var(--gold)}
+.box.del h3{color:var(--deep)}
+.box p{margin-bottom:12px;font-size:.99rem}
+.box ul{margin:8px 0 22px 20px}
+.box li{margin-bottom:6px;font-size:.99rem}
+
+/* footer */
+footer{background:var(--deep);padding:70px 0 30px;border-top:4px double var(--gold-d);position:relative}
+footer::before{content:"";position:absolute;inset:0;background-image:var(--diamonds);pointer-events:none}
+.foot-grid{display:grid;gap:36px;position:relative}
+@media(min-width:860px){.foot-grid{grid-template-columns:1.2fr 1fr 1fr}}
+footer h4{font-family:'Rye';font-weight:400;color:var(--gold);margin-bottom:12px;font-size:1.2rem}
+footer p,footer li{font-size:.97rem;color:#d6cfb8}
+footer ul{list-style:none}
+footer li{margin-bottom:7px}
+footer a{text-decoration:none;border-bottom:1px solid rgba(224,180,90,.5)}
+footer a.btn{border-bottom:2px solid var(--gold)}
+footer a:hover{color:var(--gold)}
+footer .logo-img{height:64px}
+.foot-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.legal{margin-top:46px;padding-top:20px;border-top:1px dashed rgba(224,180,90,.35);font-size:.82rem;color:#9a937e;text-align:center;position:relative}
+
+/* float */
+.float{position:fixed;left:12px;right:12px;bottom:12px;z-index:55;display:flex;gap:10px}
+.float .btn{flex:1;padding:12px 8px;font-size:.85rem}
+@media(min-width:960px){.float{display:none}}
+@media(max-width:959px){footer{padding-bottom:100px}}
+
+/* cartões clicáveis e novos blocos */
+.tabs{flex-wrap:wrap;justify-content:center;width:auto}
+.tab{padding:12px 22px;font-size:1rem}
+.tab:nth-child(n+3){border-top:0}
+@media(max-width:560px){.tabs{display:grid;grid-template-columns:1fr 1fr;width:100%}.tab+.tab{border-left:0}.tab:nth-child(even){border-left:2px solid var(--gold)}.tab:nth-child(n+3){border-top:2px solid var(--gold)}}
+.card[data-item]{cursor:pointer;transition:transform .15s,box-shadow .15s}
+.card[data-item]:hover{transform:translate(-3px,-3px);box-shadow:10px 10px 0 rgba(0,0,0,.45)}
+.card .order{display:block;height:0;margin:0;padding:0;border:0;font-size:0;overflow:visible;position:static!important}
+.card .order::after{content:"";position:absolute;inset:0;z-index:2}
+.card .order:focus-visible{outline:3px solid var(--wine);outline-offset:4px}
+
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- sprite de ícones -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="flame" d="M0,0C-22,-18-20,-46-4,-78C0,-56 24,-44 20,-20C18,-8 8,0 0,0Z"/>
+  </defs>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#topo" aria-label="SAL15 Burger and Shop, início">
+      <img class="logo-img" src="logo.png" alt="">
+      <span class="logo-fallback"><span class="logo-mark">15</span><span class="logo-text">SAL15<small>BURGER AND SHOP</small></span></span>
+    </a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="#casa">A casa</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#diferenciais">Diferenciais</a></li>
+        <li><a href="#reservas-delivery">Reservas e delivery</a></li>
+        <li><a href="#contato">Onde estamos</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-gold nav-cta" href="https://www.ifood.com.br/delivery/belo-horizonte-mg/sal15-burger-and-shop-prado/b95f78a9-b656-46fc-a450-d4ee27d630a8?utm_medium=ReserveGoogle" target="_blank" rel="noopener">Pedir no iFood</a>
+    <button class="burger-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mm"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mm">
+    <a href="#casa">A casa</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#diferenciais">Diferenciais</a>
+    <a href="#reservas-delivery">Reservas e delivery</a>
+    <a href="#contato">Onde estamos</a>
+    <a class="btn btn-gold" href="https://www.ifood.com.br/delivery/belo-horizonte-mg/sal15-burger-and-shop-prado/b95f78a9-b656-46fc-a450-d4ee27d630a8?utm_medium=ReserveGoogle" target="_blank" rel="noopener">Pedir no iFood</a>
+  </div>
+</header>
+
+<main id="topo">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="seal-badge">★ Melhor Hambúrguer de MG · 5º do Brasil (#php25) ★</span>
+      <h1>Burger na lenha frutífera<span>com sotaque de Minas.</span></h1>
+      <p class="lead">Carne de 180g assada na lenha, queijo da canastra meia cura e molhos da casa. Hambúrguer, coquetéis e mesas ao ar livre no Prado, em Belo Horizonte.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-gold" href="#cardapio">Ver o cardápio</a>
+        <a class="btn btn-line" href="https://www.ifood.com.br/delivery/belo-horizonte-mg/sal15-burger-and-shop-prado/b95f78a9-b656-46fc-a450-d4ee27d630a8?utm_medium=ReserveGoogle" target="_blank" rel="noopener">Pedir no iFood</a>
+      </div>
+      <div class="hero-stats">
+        <div><b>4,8</b>no Google</div>
+        <div><b>4,1 mil</b>avaliações</div>
+        <div><b>17h–23h</b>ter. a dom.</div>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="rays" aria-hidden="true"></div>
+      <!-- selo giratório -->
+      <svg class="rotseal" viewBox="0 0 200 200" role="img" aria-label="Selo: Melhor Hambúrguer de MG">
+        <defs><path id="circ" d="M100,100 m-72,0 a72,72 0 1,1 144,0 a72,72 0 1,1 -144,0"/></defs>
+        <circle cx="100" cy="100" r="96" fill="#6d1626" stroke="#e0b45a" stroke-width="4"/>
+        <circle cx="100" cy="100" r="88" fill="none" stroke="#e0b45a" stroke-width="1.5" stroke-dasharray="3 5"/>
+        <g class="ring"><text font-family="Rye, serif" font-size="17" fill="#e0b45a" letter-spacing="2.2"><textPath href="#circ" startOffset="0">MELHOR HAMBÚRGUER DE MG ✦ #PHP25 ✦ </textPath></text></g>
+        <circle cx="100" cy="100" r="46" fill="#0f2619" stroke="#e0b45a" stroke-width="3"/>
+        <text x="100" y="115" text-anchor="middle" font-family="Rye, serif" font-size="44" fill="#e0b45a">5º</text>
+        <text x="100" y="134" text-anchor="middle" font-family="DM Sans, sans-serif" font-weight="700" font-size="9" fill="#f1ebdb" letter-spacing="1.5">DO BRASIL</text>
+      </svg>
+
+      <!-- hambúrguer em estilo gravura -->
+      <svg class="burger" viewBox="0 0 460 460" role="img" aria-label="Ilustração de um hambúrguer assado na lenha">
+        <defs>
+          <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(40)"><line x1="0" y1="0" x2="0" y2="7" stroke="#0f2619" stroke-width="1.6" opacity=".5"/></pattern>
+          <pattern id="hatch2" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)"><line x1="0" y1="0" x2="0" y2="5" stroke="#0f2619" stroke-width="1.3" opacity=".6"/></pattern>
+        </defs>
+        <circle cx="230" cy="230" r="212" fill="#0f2619" stroke="#e0b45a" stroke-width="5"/>
+        <circle cx="230" cy="230" r="199" fill="none" stroke="#e0b45a" stroke-width="1.6" stroke-dasharray="2 7" stroke-linecap="round"/>
+        <circle cx="230" cy="230" r="186" fill="#17382a" stroke="#e0b45a" stroke-width="2"/>
+        <!-- chamas -->
+        <g fill="#e0731f" stroke="#0f2619" stroke-width="3" stroke-linejoin="round">
+          <use href="#flame" transform="translate(120 396) scale(1.0)"/>
+          <use href="#flame" transform="translate(180 404) scale(1.25)"/>
+          <use href="#flame" transform="translate(240 408) scale(1.4)"/>
+          <use href="#flame" transform="translate(300 404) scale(1.2)"/>
+          <use href="#flame" transform="translate(350 396) scale(.95)"/>
+        </g>
+        <g fill="#f4b73a" stroke="#0f2619" stroke-width="2.5" stroke-linejoin="round">
+          <use href="#flame" transform="translate(180 404) scale(.7)"/>
+          <use href="#flame" transform="translate(240 408) scale(.85)"/>
+          <use href="#flame" transform="translate(300 404) scale(.68)"/>
+        </g>
+        <!-- pão de baixo -->
+        <path d="M104 318h252c2 38-38 58-126 58s-128-20-126-58z" fill="#d9a04a" stroke="#0f2619" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M104 318h252c2 38-38 58-126 58s-128-20-126-58z" fill="url(#hatch)"/>
+        <!-- carne -->
+        <rect x="96" y="262" width="268" height="58" rx="26" fill="#6a3319" stroke="#0f2619" stroke-width="4"/>
+        <rect x="96" y="262" width="268" height="58" rx="26" fill="url(#hatch2)"/>
+        <g stroke="#2a1208" stroke-width="5" stroke-linecap="round" opacity=".75"><path d="M140 272l16 38M184 270l16 40M228 270l16 40M272 270l16 40M316 272l16 38"/></g>
+        <!-- queijo -->
+        <path d="M100 232h260l-8 24-24 6-6 40-22-38-40 6-14 30-24-34-38 8-20-18-34 8z" fill="#f2b92c" stroke="#0f2619" stroke-width="4" stroke-linejoin="round"/>
+        <!-- tomate -->
+        <rect x="108" y="212" width="244" height="26" rx="13" fill="#b0262e" stroke="#0f2619" stroke-width="4"/>
+        <g fill="#e65a52" opacity=".8"><circle cx="150" cy="225" r="4"/><circle cx="210" cy="225" r="4"/><circle cx="270" cy="225" r="4"/><circle cx="320" cy="225" r="4"/></g>
+        <!-- alface -->
+        <path d="M92 204c14 24 30-8 46 8s30-12 46 6 30-12 46 6 30-12 46 6 30-12 46 6 30-8 46-8c0-18-14-24-14-24H106s-14 8-14 24z" fill="#76a84f" stroke="#0f2619" stroke-width="4" stroke-linejoin="round"/>
+        <!-- pão de cima -->
+        <path d="M96 194C92 110 150 62 230 62s138 48 134 132z" fill="#e0a44c" stroke="#0f2619" stroke-width="4.5" stroke-linejoin="round"/>
+        <path d="M96 194C92 110 150 62 230 62s138 48 134 132z" fill="url(#hatch)"/>
+        <path d="M130 110c24-26 60-38 100-38" fill="none" stroke="#f9deaa" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+        <g fill="#f9ebc3" stroke="#0f2619" stroke-width="2"><ellipse cx="170" cy="112" rx="11" ry="5.5" transform="rotate(-25 170 112)"/><ellipse cx="228" cy="98" rx="11" ry="5.5"/><ellipse cx="286" cy="114" rx="11" ry="5.5" transform="rotate(25 286 114)"/><ellipse cx="200" cy="148" rx="11" ry="5.5" transform="rotate(-12 200 148)"/><ellipse cx="262" cy="150" rx="11" ry="5.5" transform="rotate(14 262 150)"/><ellipse cx="320" cy="162" rx="11" ry="5.5" transform="rotate(30 320 162)"/><ellipse cx="140" cy="160" rx="11" ry="5.5" transform="rotate(-30 140 160)"/></g>
+        <!-- estrelas -->
+        <g fill="#e0b45a"><path d="M60 120l5 12 13 1-10 8 3 13-11-7-11 7 3-13-10-8 13-1z"/><path d="M400 330l5 12 13 1-10 8 3 13-11-7-11 7 3-13-10-8 13-1z"/><path d="M386 92l3 8 9 1-7 6 2 9-7-5-7 5 2-9-7-6 9-1z"/></g>
+        <!-- faixa -->
+        <path d="M70 412l40-14h240l40 14-40 14H110z" fill="#6d1626" stroke="#e0b45a" stroke-width="3"/>
+        <text x="230" y="419" text-anchor="middle" font-family="Rye, serif" font-size="19" fill="#e0b45a" letter-spacing="2">NHÔ LAU</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+    <span>LENHA FRUTÍFERA</span><span class="d">✦</span><span>QUEIJO DA CANASTRA</span><span class="d">✦</span><span>COQUETÉIS</span><span class="d">✦</span><span>MESAS EXTERNAS</span><span class="d">✦</span><span>PRADO · BH</span><span class="d">✦</span>
+    <span>LENHA FRUTÍFERA</span><span class="d">✦</span><span>QUEIJO DA CANASTRA</span><span class="d">✦</span><span>COQUETÉIS</span><span class="d">✦</span><span>MESAS EXTERNAS</span><span class="d">✦</span><span>PRADO · BH</span><span class="d">✦</span>
+  </div>
+</div>
+
+<!-- A CASA -->
+<section class="casa" id="casa">
+  <div class="wrap casa-grid">
+    <div>
+      <span class="eyebrow">A casa e sua história</span>
+      <h2 class="sec-title">Fogo de lenha, queijo de Minas e burger de respeito.</h2>
+      <div class="orn" aria-hidden="true">✦</div>
+      <!-- História baseada em matéria do SouBH (2022, ainda na unidade do bairro Serra). Confirmar com a casa antes de publicar. -->
+      <p>O nome SAL15 é uma homenagem: o fundador, <strong>Felipe</strong>, batizou a casa em memória do avô, que recebeu o <strong>Salmo 15</strong> no funeral. O salmo fala de integridade e bom coração, e o sal ainda é o tempero base de qualquer cozinha. A hamburgueria abriu em <strong>junho de 2022</strong> e hoje fica no Prado, com decoração cheia de lembranças de família.</p>
+      <p>Na cozinha, a carne de <strong>180g é assada na lenha frutífera</strong> e o cardápio conversa com Minas: <strong>queijo da canastra meia cura</strong>, queijos maturados e requeijão de corte de Dores de Guanhães. As sobremesas ficam a cargo de <strong>Raquel</strong>, esposa do Felipe, e o burger mais pedido, o <strong>Nhô Lau</strong>, foi eleito o Melhor Hambúrguer de MG e o 5º Melhor do Brasil pelo #php25.</p>
+      <div style="margin-top:28px"><a class="btn btn-deep" href="#cardapio">Conhecer o Nhô Lau</a></div>
+    </div>
+    <div class="frame">
+      <div class="facts">
+        <div class="fact"><span class="n">1</span><div><h3>Lenha frutífera</h3><p>Carne de 180g assada na lenha, servida bem rosada no Nhô Lau e no Rodeio.</p></div></div>
+        <div class="fact"><span class="n">2</span><div><h3>Queijos de Minas</h3><p>Canastra meia cura, queijos maturados e requeijão de corte de Dores de Guanhães.</p></div></div>
+        <div class="fact"><span class="n">3</span><div><h3>Tudo da casa</h3><p>Maionese verde, maionese branca, creme de goiabada com pimenta e doces da Dolce De Marco.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARDÁPIO -->
+<section class="menu" id="cardapio">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Cardápio</span>
+      <h2 class="sec-title">Do Nhô Lau ao Saricó</h2>
+      <div class="orn" aria-hidden="true">✦</div>
+      <p class="sec-lead">Entradas para dividir e burgers com personalidade. Faixa de preço média: R$ 60–100 por pessoa.</p>
+    </div>
+
+
+    <div class="panel" id="p-burgers" role="tabpanel" aria-labelledby="t-burgers">
+      <div class="grid">
+        <article class="card featured" data-item="nho-lau">
+          <span class="no">Nº 1</span>
+          <h3>Nhô Lau <span class="tag">Exclusivo e mais pedido</span></h3>
+          <span class="award">★ Melhor Hambúrguer de MG · 5º do Brasil · #php25</span>
+          <p>Carne 180g assada na lenha frutífera, queijo da canastra meia cura e creme de goiabada com pimenta. A carne deste burger é servida somente ao ponto da casa: bem rosada.</p>
+        </article>
+        <article class="card" data-item="rodeio"><span class="no">Nº 2</span><h3>Rodeio</h3><p>Carne 180g assada na lenha, requeijão de corte produzido em Dores de Guanhães, cebola branca assada e caramelo de café produzido pela nossa doceria, a Dolce De Marco. A carne deste burger é servida somente ao ponto da casa: bem rosada.</p></article>
+        <article class="card" data-item="cheese-burger"><span class="no">Nº 3</span><h3>Cheese Burger</h3><p>Carne 180g assada na lenha frutífera, creme de queijo da casa (produzido com queijo maturado e queijo da canastra meia cura) e maionese verde.</p></article>
+        <article class="card" data-item="cheese-bacon"><span class="no">Nº 4</span><h3>Cheese Bacon</h3><p>Carne 180g assada na lenha frutífera, creme de queijo da casa (queijo maturado e queijo da canastra meia cura), bacon e maionese verde.</p></article>
+        <article class="card" data-item="cheese-salada"><span class="no">Nº 5</span><h3>Cheese Salada</h3><p>Carne 180g assada na lenha frutífera, creme de queijo da casa (queijo maturado e queijo da canastra meia cura), rúcula, cebola roxa e maionese verde.</p></article>
+        <article class="card" data-item="seu-frango"><span class="no">Nº 6</span><h3>Seu Frango</h3><p>Burger 180g de coxa e sobrecoxa assado na lenha frutífera, requeijão de corte, chips de batata doce, alface americana e maionese branca.</p></article>
+        <article class="card" data-item="sarico"><span class="no">Nº 7</span><h3>Saricó <span class="tag veg">Vegetariano</span></h3><p>Disco de creme de queijos (maturado e da canastra meia cura) com cogumelos (shiitake e shimeji), empanado e frito, rúcula, cebola roxa e maionese verde.</p></article>
+      </div>
+    </div>
+
+    <div class="panel" id="p-entradas" role="tabpanel" aria-labelledby="t-entradas" hidden>
+      <div class="grid">
+        <article class="card" data-item="nholauzitos"><span class="no">E1</span><h3>Nhôlauzitos</h3><p>Inspirado no carro-chefe da casa, o Nhô Lau. São 10 bolinhas de queijo da canastra meia cura empanadas e fritas, acompanhadas pelo creme de goiabada com pimenta.</p></article>
+        <article class="card" data-item="golden"><span class="no">E2</span><h3>Golden</h3><p>Pastrami de bacon banhado no molho de rapadura com limão e ovo frito gema mole.</p></article>
+        <article class="card" data-item="fritas"><span class="no">E3</span><h3>Fritas <span class="tag size">200g</span></h3><p>Batatas fritas com casca acompanhadas de maionese branca.</p></article>
+        <article class="card" data-item="fritas-com-queijo-da-canastra-meia-cura"><span class="no">E4</span><h3>Fritas com queijo da canastra meia cura <span class="tag size">380g</span></h3><p>Batatas fritas com casca cobertas de queijo da canastra meia cura derretido e acompanhadas de maionese branca.</p></article>
+        <article class="card" data-item="fritas-sr-cabeca-de-batata"><span class="no">E5</span><h3>Fritas Sr. Cabeça de Batata <span class="tag size">500g</span></h3><p>Batatas fritas com casca cobertas de requeijão de corte, cebola caramelada no Guarapan, pedaços de pimenta jalapeño e maionese branca da casa.</p></article>
+        <article class="card" data-item="nuggets"><span class="no">E6</span><h3>Nuggets <span class="tag size">10 un.</span></h3><p>Empanadinhos de peito de frango fritos acompanhados da maionese verde.</p></article>
+        <article class="card" data-item="doug-funnie"><span class="no">E7</span><h3>Doug Funnie <span class="tag size">600g</span></h3><p>Costela suína inteira e defumada em lenha frutífera, marinada no molho barbecue e coberta com creme de queijos maturados.</p></article>
+        <article class="card" data-item="torresminhos-de-domingo"><span class="no">E8</span><h3>Torresminhos de domingo</h3><p>Torresminhos defumados e fritos acompanhados do molho de rapadura e limão.</p></article>
+      </div>
+    </div>
+
+
+    <div class="panel" id="p-bebidas" role="tabpanel" aria-labelledby="t-bebidas" hidden>
+      <div class="grid">
+        <article class="card" data-item="lote-896"><span class="no">B1</span><h3>Lote 896 <span class="tag">Coquetel</span></h3><p>Gin London Dry, limão tahiti, polpa de melancia e espuma de limão siciliano.</p></article>
+        <article class="card" data-item="quintal"><span class="no">B2</span><h3>Quintal <span class="tag">Coquetel</span></h3><p>Polpa de maracujá, manjericão e espuma de gengibre.</p></article>
+      </div>
+      <p class="note" style="margin-top:22px">A carta completa de coquetéis e bebidas está no iFood e no salão.</p>
+    </div>
+
+    <div class="panel" id="p-sobremesas" role="tabpanel" aria-labelledby="t-sobremesas" hidden>
+      <div class="grid">
+        <article class="card" data-item="docinhos"><span class="no">S1</span><h3>Docinhos</h3><p>Docinhos da doceria que funciona na casa, para fechar a noite.</p></article>
+        <article class="card" data-item="bolo-no-pote"><span class="no">S2</span><h3>Bolo no pote</h3><p>Sobremesa individual, da doceria da casa.</p></article>
+        <article class="card" data-item="tortas-fatia"><span class="no">S3</span><h3>Tortas (fatia)</h3><p>Fatias de torta da doceria da casa. Os sabores variam.</p></article>
+      </div>
+    </div>
+
+    <p class="note">Toque em qualquer item para pedir no iFood. Cardápio sujeito a alterações; valores e disponibilidade atualizados estão no iFood e no salão.</p>
+    <div class="menu-cta">
+      <a class="btn btn-gold" href="https://www.ifood.com.br/delivery/belo-horizonte-mg/sal15-burger-and-shop-prado/b95f78a9-b656-46fc-a450-d4ee27d630a8?utm_medium=ReserveGoogle" target="_blank" rel="noopener">Pedir no iFood</a>
+      <a class="btn btn-line" href="#contato">Vir ao Prado</a>
+    </div>
+  </div>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section class="dif" id="diferenciais">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Por que a SAL15</span>
+      <h2 class="sec-title">Um burger pra lembrar</h2>
+      <div class="orn" aria-hidden="true">✦</div>
+      <p class="sec-lead">Ingredientes de Minas, fogo de lenha e um lugar feito pra ficar à vontade.</p>
+    </div>
+    <div class="dif-grid">
+
+      <div class="dcard"><div class="emblem">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><g stroke="#0f2619" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M32 6C22 18 24 26 30 30c-6 0-10-6-8-12-8 8-10 18-4 26 6 6 22 6 28 0 6-8 4-20-6-26-2 4-4 6-6 6 4-6 2-12-2-18z" fill="#e0731f"/><path d="M32 30c-6 6-4 12 0 14 4-2 6-8 0-14z" fill="#f4b73a"/><path d="M8 56h48" /><ellipse cx="16" cy="56" rx="5" ry="3" fill="#6a3319"/><ellipse cx="48" cy="56" rx="5" ry="3" fill="#6a3319"/></g></svg>
+      </div><h3>Lenha frutífera</h3><p>A carne é assada na lenha, com sabor defumado e suculência de verdade.</p></div>
+
+      <div class="dcard"><div class="emblem">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><g stroke="#0f2619" stroke-width="3" stroke-linejoin="round"><path d="M6 40L40 14l18 8v26H6z" fill="#f2b92c"/><path d="M6 40h52" fill="none"/><path d="M6 40L40 14l18 8-34 24z" fill="#f8cf5c"/><circle cx="20" cy="46" r="3" fill="#0f2619"/><circle cx="36" cy="44" r="2.5" fill="#0f2619"/><circle cx="48" cy="38" r="3" fill="#0f2619"/></g></svg>
+      </div><h3>Queijos de Minas</h3><p>Canastra meia cura, queijos maturados e requeijão de corte de Dores de Guanhães.</p></div>
+
+      <div class="dcard"><div class="emblem">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><g stroke="#0f2619" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M10 12h44c0 14-10 22-22 22S10 26 10 12z" fill="#b0262e"/><path d="M12 16h40" opacity=".6"/><path d="M32 34v18M20 54h24"/><path d="M40 4l-8 14" /><circle cx="40" cy="4" r="3" fill="#76a84f"/></g></svg>
+      </div><h3>Ótimos coquetéis</h3><p>Drinks pra acompanhar o burger ou pra esticar a noite.</p></div>
+
+      <div class="dcard"><div class="emblem">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><g stroke="#0f2619" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M6 28C8 14 20 6 32 6s24 8 26 22z" fill="#b0262e"/><path d="M19 28c0-12 6-20 13-22M45 28c0-12-6-20-13-22" fill="none"/><path d="M32 28v28M22 56h20"/><path d="M8 48h14M42 48h14"/></g></svg>
+      </div><h3>Mesas externas</h3><p>Espaço ao ar livre pra curtir com amigos e família.</p></div>
+
+      <div class="dcard"><div class="emblem">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><g stroke="#0f2619" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round" fill="none"><path d="M16 6v28M46 6v28"/><path d="M16 22h30" /><rect x="16" y="26" width="30" height="10" rx="2" fill="#f2b92c"/><path d="M12 36l-6 22M50 36l6 22M16 36l-2 22M46 36l2 22"/><path d="M10 50h42"/></g></svg>
+      </div><h3>Cadeirinhas altas</h3><p>Estrutura pra receber os pequenos com conforto.</p></div>
+
+      <div class="dcard"><div class="emblem">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><g stroke="#0f2619" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M6 30C6 16 18 8 32 8s26 8 26 22z" fill="#b97a4a"/><circle cx="20" cy="22" r="3" fill="#f1ebdb"/><circle cx="34" cy="16" r="3" fill="#f1ebdb"/><circle cx="46" cy="24" r="3" fill="#f1ebdb"/><path d="M24 30c0 12-2 20-4 26h24c-2-6-4-14-4-26z" fill="#f1ebdb"/></g></svg>
+      </div><h3>Opção vegetariana</h3><p>O Saricó, com cogumelos shiitake e shimeji, é feito pra quem não come carne.</p></div>
+
+    </div>
+  </div>
+</section>
+
+<!-- RECONHECIMENTO -->
+<section class="proof" id="avaliacoes">
+  <div class="wrap center">
+    <span class="eyebrow">Reconhecimento</span>
+    <h2 class="sec-title">Quem prova, avalia bem</h2>
+    <div class="orn" aria-hidden="true">✦</div>
+    <p class="sec-lead" style="color:#eadfc9">Milhares de avaliações no Google e um prêmio que confirma o que o salão já sabe.</p>
+    <div class="proof-grid">
+      <div class="pbox"><div class="big">4,8</div><div class="stars" aria-hidden="true">★★★★★</div><p>nota média no Google, com mais de 4 mil avaliações</p></div>
+      <div class="pbox"><div class="big">#1</div><div class="stars" aria-hidden="true">★★★★★</div><p>Nhô Lau, eleito o Melhor Hambúrguer de MG pelo #php25</p></div>
+      <div class="pbox"><div class="big">5º</div><div class="stars" aria-hidden="true">★★★★★</div><p>lugar entre os melhores hambúrgueres do Brasil, segundo o #php25</p></div>
+    </div>
+    <div class="center-cta"><a class="btn btn-gold" href="https://maps.google.com/maps?q=SAL15+Burger+and+Shop+R.+Pedra+Bonita+346+Prado+Belo+Horizonte" target="_blank" rel="noopener">Ler avaliações no Google</a></div>
+  </div>
+</section>
+
+<!-- HORÁRIOS -->
+<section class="hours" id="horarios">
+  <div class="wrap hours-grid">
+    <svg class="clock" viewBox="0 0 240 240" role="img" aria-label="Relógio marcando 17 horas">
+      <circle cx="120" cy="120" r="114" fill="#0f2619" stroke="#e0b45a" stroke-width="6"/>
+      <circle cx="120" cy="120" r="102" fill="#f1ebdb" stroke="#0f2619" stroke-width="3"/>
+      <circle cx="120" cy="120" r="94" fill="none" stroke="#b88a2e" stroke-width="1.5" stroke-dasharray="2 6"/>
+      <g stroke="#0f2619" stroke-width="4" stroke-linecap="round">
+        <path d="M120 28v14M120 198v14M28 120h14M198 120h14"/>
+      </g>
+      <g stroke="#0f2619" stroke-width="2.5" stroke-linecap="round">
+        <path d="M166 40l-7 12M200 74l-12 7M200 166l-12-7M166 200l-7-12M74 200l7-12M40 166l12-7M40 74l12 7M74 40l7 12"/>
+      </g>
+      <text x="120" y="82" text-anchor="middle" font-family="Rye, serif" font-size="16" fill="#6d1626">SAL15</text>
+      <path d="M120 120L152 176" stroke="#0f2619" stroke-width="7" stroke-linecap="round"/>
+      <path d="M120 120L120 48" stroke="#6d1626" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="120" cy="120" r="9" fill="#e0b45a" stroke="#0f2619" stroke-width="3"/>
+    </svg>
+    <div>
+      <span class="eyebrow">Horário de funcionamento</span>
+      <h2 class="big-hours"><small>TERÇA A DOMINGO</small>17H ÀS 23H</h2>
+      <p>Também abrimos nos feriados, mas avisamos nos nossos stories. Fique de olho lá.</p>
+      <div class="addr"><b>Rua Pedra Bonita, 346 – Prado</b>Belo Horizonte – MG · 30411-203</div>
+      <div class="hbtns">
+        <a class="btn btn-deep" href="https://maps.google.com/maps?q=SAL15+Burger+and+Shop+R.+Pedra+Bonita+346+Prado+Belo+Horizonte" target="_blank" rel="noopener">Como chegar</a>
+        <a class="btn btn-line" style="color:var(--deep);border-color:var(--deep)" href="https://www.instagram.com/sal15.burgerandshop/" target="_blank" rel="noopener">Ver stories</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESERVAS E DELIVERY -->
+<section class="how" id="reservas-delivery">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Antes de vir ou pedir</span>
+      <h2 class="sec-title">Reservas e delivery</h2>
+      <div class="orn" aria-hidden="true">✦</div>
+      <p class="sec-lead">Algumas informações para você aproveitar a SAL15 do jeito certo.</p>
+    </div>
+    <div class="how-grid" style="margin-top:56px">
+      <div class="box res">
+        <div class="ico"><svg viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="#e0b45a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="14" r="9" fill="#6d1626"/><path d="M20 23v13M12 36h16"/><path d="M12 14h16"/></svg></div>
+        <h3>Sobre as reservas</h3>
+        <p>Recebemos por ordem de chegada e não trabalhamos com reservas. Em situações muito específicas, podemos avaliar uma exceção por conversa no direct do Instagram, considerando cada caso e seu contexto.</p>
+        <ul>
+          <li>Se a reserva for confirmada, a tolerância é de no máximo 15 minutos.</li>
+          <li>Depois desse prazo, a mesa é liberada para quem estiver aguardando.</li>
+          <li>Nossa fila costuma andar bem rápido. Enquanto espera, peça uma bebida e conte com a nossa recepcionista.</li>
+          <li>O atendimento acontece conforme a lotação da casa.</li>
+        </ul>
+        <a class="btn btn-gold" href="https://www.instagram.com/sal15.burgerandshop/" target="_blank" rel="noopener">Chamar no Instagram</a>
+      </div>
+      <div class="box del">
+        <div class="ico"><svg viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="#e0b45a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12h6l4 16h14l4-12H14"/><circle cx="17" cy="33" r="2.5" fill="#e0b45a"/><circle cx="29" cy="33" r="2.5" fill="#e0b45a"/></svg></div>
+        <h3>Sobre o delivery</h3>
+        <p>Nossos pedidos de delivery são feitos exclusivamente pelo iFood.</p>
+        <p>Em alguns horários, principalmente nos fins de semana, podemos pausar o atendimento no aplicativo ou retirar temporariamente os burgers do delivery. Se você não estiver encontrando os burgers ou conseguindo fazer seu pedido, pode ser que estejamos em uma dessas pausas.</p>
+        <p>Fazemos isso para manter o nosso padrão de qualidade e cuidar do fluxo da cozinha, atendendo bem tanto quem está na casa quanto quem pede de casa.</p>
+        <a class="btn btn-deep" href="https://www.ifood.com.br/delivery/belo-horizonte-mg/sal15-burger-and-shop-prado/b95f78a9-b656-46fc-a450-d4ee27d630a8?utm_medium=ReserveGoogle" target="_blank" rel="noopener">Abrir no iFood</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- RODAPÉ -->
+<footer id="contato">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="#topo" style="margin-bottom:16px">
+          <img class="logo-img" src="logo.png" alt="">
+          <span class="logo-fallback"><span class="logo-mark">15</span><span class="logo-text">SAL15<small>BURGER AND SHOP</small></span></span>
+        </a>
+        <p>Hambúrguer na lenha frutífera, queijos de Minas e coquetéis no Prado, em Belo Horizonte.</p>
+        <div class="foot-cta">
+          <a class="btn btn-gold" href="https://www.ifood.com.br/delivery/belo-horizonte-mg/sal15-burger-and-shop-prado/b95f78a9-b656-46fc-a450-d4ee27d630a8?utm_medium=ReserveGoogle" target="_blank" rel="noopener">Pedir no iFood</a>
+          <a class="btn btn-line" href="https://www.instagram.com/sal15.burgerandshop/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <div>
+        <h4>Horário</h4>
+        <ul>
+          <li><strong>Terça a domingo:</strong> 17h às 23h</li>
+          <li>Segunda: fechado</li>
+          <li>Feriados: avisamos nos stories.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Onde estamos</h4>
+        <p>R. Pedra Bonita, 346 – Prado<br>Belo Horizonte – MG, 30411-203</p>
+        <p style="margin-top:10px"><a href="https://maps.google.com/maps?q=SAL15+Burger+and+Shop+R.+Pedra+Bonita+346+Prado+Belo+Horizonte" target="_blank" rel="noopener">Abrir no Google Maps</a></p>
+        <p style="margin-top:10px">Contato e dúvidas: direct no <a href="https://www.instagram.com/sal15.burgerandshop/" target="_blank" rel="noopener">Instagram</a></p>
+      </div>
+    </div>
+    <p class="legal">© <span id="y">2026</span> SAL15 Burger and Shop. Todos os direitos reservados. Aprecie com moderação.</p>
+  </div>
+</footer>
+
+<div class="float" aria-label="Ações rápidas">
+  <a class="btn btn-gold" href="https://www.ifood.com.br/delivery/belo-horizonte-mg/sal15-burger-and-shop-prado/b95f78a9-b656-46fc-a450-d4ee27d630a8?utm_medium=ReserveGoogle" target="_blank" rel="noopener">Pedir no iFood</a>
+  <a class="btn btn-deep" style="border-color:var(--gold)" href="https://maps.google.com/maps?q=SAL15+Burger+and+Shop+R.+Pedra+Bonita+346+Prado+Belo+Horizonte" target="_blank" rel="noopener">Como chegar</a>
+</div>
+
+<script>
+(function(){
+  var b=document.querySelector('.burger-btn'),m=document.getElementById('mm');
+  b.addEventListener('click',function(){var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open');b.setAttribute('aria-expanded','false')})});
+  document.querySelectorAll('.tab').forEach(function(t){
+    t.addEventListener('click',function(){
+      document.querySelectorAll('.tab').forEach(function(x){x.setAttribute('aria-selected','false')});
+      document.querySelectorAll('.panel').forEach(function(p){p.hidden=true});
+      t.setAttribute('aria-selected','true');
+      document.getElementById(t.getAttribute('aria-controls')).hidden=false;
+    });
+  });
+  document.querySelectorAll('.logo-img').forEach(function(img){
+    var ok=function(){if(img.naturalWidth>0)img.parentNode.classList.add('has-img')};
+    if(img.complete)ok();else img.addEventListener('load',ok);
+  });
+  /* ===== LINKS POR ITEM DO iFOOD =====
+     Cada item do cardápio abre o link abaixo. Por padrão, todos abrem a loja da SAL15 no iFood.
+     Para levar direto ao item: abra o item no iFood (pelo navegador do computador), copie o endereço
+     da barra e cole aqui no id correspondente. Ex.: 'saricó': 'https://www.ifood.com.br/...'  */
+  var STORE='https://www.ifood.com.br/delivery/belo-horizonte-mg/sal15-burger-and-shop-prado/b95f78a9-b656-46fc-a450-d4ee27d630a8?utm_medium=ReserveGoogle';
+  var ITEM_LINKS={
+    'nho-lau':'', 'rodeio':'', 'cheese-burger':'', 'cheese-bacon':'', 'cheese-salada':'', 'seu-frango':'', 'sarico':'',
+    'nholauzitos':'', 'golden':'', 'fritas':'', 'fritas-com-queijo-da-canastra-meia-cura':'', 'fritas-sr-cabeca-de-batata':'',
+    'nuggets':'', 'doug-funnie':'', 'torresminhos-de-domingo':'',
+    'lote-896':'', 'quintal':'', 'docinhos':'', 'bolo-no-pote':'', 'tortas-fatia':''
+  };
+  document.querySelectorAll('.card[data-item]').forEach(function(c){
+    var id=c.getAttribute('data-item');
+    var a=document.createElement('a');
+    a.className='order';
+    a.href=ITEM_LINKS[id]||STORE;
+    a.target='_blank';a.rel='noopener';
+    
+    var h=c.querySelector('h3');
+    a.setAttribute('aria-label','Pedir '+h.childNodes[0].textContent.trim()+' no iFood');
+    c.appendChild(a);
+  });
+  document.getElementById('y').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
